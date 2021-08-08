@@ -14,10 +14,10 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <div class="d-flex">
-                        <img class="logo-image align-self-bottom" width="30" height="24" alt="flight-logo" src="{{ asset('images/favicon.png') }}">
-                        <div class="align-self-center ps-1">
+                <a class="navbar-brand p-0 g-0 b-0" href="/">
+                    <div class="d-flex g-0 p-0 b-0">
+                        <img class="d-inline-block align-self-center logo-image g-0 p-0 b-0" alt="flight-logo" src="{{ asset('images/favicon.svg') }}">
+                        <div class="align-self-center ps-1 g-0 p-0 b-0">
                             ATCS
                         </div>
                     </div>
