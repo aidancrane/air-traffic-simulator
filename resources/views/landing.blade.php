@@ -26,14 +26,13 @@
         <hr class="p-0 b-0 g-0">
     </div>
 
-    Welcome to ATCS (Air Traffic Control Simulator) this is a flight simulation
-    and navigation game.
-    <br>
-    <br>
-    None of the flights are real but you will be expected
-    to land aircraft at airports around the map. You can choose from many maps
-    and the game is generally best played on a desktop. An account is not required
-    to control the flights.
+    <p>Welcome to ATCS (Air Traffic Control Simulator) this is a flight simulation
+        and navigation game.</p>
+    <p>None of the flights are real but you will be expected
+        to land aircraft at airports around the map. You can choose from many maps
+        and the game is generally best played on a desktop. An account is not required
+        to control the flights.</p>
+
 
     {{-- <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#launchModal">
@@ -63,3 +62,8 @@
 
 </div>
 @stop
+
+@push('scripts')
+<script src="{{ asset('js/jquery.js') }}"></script>
+<script src="{{ asset('js/datatables.js') }}"></script>
+@endpush
