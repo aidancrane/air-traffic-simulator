@@ -17,7 +17,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-
-Route::get('/', function () {
-    return view('landing');
-});
+Route::get("/", ['as' => 'landing.home', 'uses' => 'App\Http\Controllers\HomepageController@Landing']);
+//Route::get("/", ['as' => 'landing.datatable-current-sessions', 'uses' => 'App\Http\Controllers\HomepageController@LandingCurrentSessions']);
