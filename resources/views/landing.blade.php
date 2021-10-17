@@ -11,7 +11,7 @@
         </div>
         Sessions in the table below are available to join.
         <hr class="p-0 b-0 g-0">
-        <table class="set-table table table-bordered table-responsive">
+        <table class="set-table table table-bordered table-responsive text-white">
             <thead>
                 <tr>
                     <th>ID</th>
